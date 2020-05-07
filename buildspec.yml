@@ -19,7 +19,3 @@ artifacts:
     - "**/*"
   discard-paths: no
   base-directory: build
-
-
-Git remote add origin https://github.com/RodGodoy/Cloud-For-Devs.git
-Git push -u origin master
