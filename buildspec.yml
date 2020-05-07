@@ -1,4 +1,4 @@
-version: 0.2 
+version: 0.2
 
 phases:
   install:
@@ -13,12 +13,13 @@ phases:
   build:
     commands:
       #build
-      - npm run build 
- artifacts:
+      - npm run build
+artifacts:
   files:
     - "**/*"
   discard-paths: no
   base-directory: build
 
-Git remote add origin https://github.com/bwitkowski/cloud-for-developers.git
+
+Git remote add origin https://github.com/RodGodoy/Cloud-For-Devs.git
 Git push -u origin master
