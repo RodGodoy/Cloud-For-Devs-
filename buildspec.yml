@@ -1,4 +1,6 @@
-version: 0.2 phases:
+version: 0.2 
+
+phases:
   install:
     commands:
       # echo "installing Node 12...."
@@ -11,8 +13,12 @@ version: 0.2 phases:
   build:
     commands:
       #build
-      - npm run build artifacts:
+      - npm run build 
+ artifacts:
   files:
     - "**/*"
   discard-paths: no
   base-directory: build
+
+Git remote add origin https://github.com/bwitkowski/cloud-for-developers.git
+Git push -u origin master
